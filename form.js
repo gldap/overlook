@@ -1,4 +1,4 @@
-window.addEventlistener("DOMContentLoaded", function(){
+window.addEventListener("DOMContentLoaded", function(){
   //get form elements defined in your form HTML above
   var form = document.querySelector(".my-form");
   var button = document.querySelector(".subscribe");
