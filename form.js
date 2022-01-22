@@ -1,8 +1,8 @@
 window.addEventListener("DOMContentLoaded", function(){
   //get form elements defined in your form HTML above
-  var form = document.querySelector(".my-form");
-  var button = document.querySelector(".subscribe");
-  var status = document.querySelector(".status");
+  var form = getElementsByClassName('my-form');
+  var button = getElementsByClassName('subscribe');
+  var status =getElementsByClassNamer('status');
  // Success and Error functions for after the form is submitted
  function success() {
  form.reset();
